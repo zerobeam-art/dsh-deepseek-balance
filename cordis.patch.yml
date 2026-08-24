@@ -1,0 +1,5 @@
+# dsh-deepseek-balance 的注册补丁（参考）。
+# 实际启用方式：把下面这段 insert 合并进 profile 的 cordis.patch.yml。
+- insert:
+    - id: dsh-deepseek-balance
+      name: 'dsh-deepseek-balance'
