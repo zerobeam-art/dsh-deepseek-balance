@@ -1,0 +1,23 @@
+{
+  "name": "dsh-deepseek-balance",
+  "version": "1.0.0",
+  "description": "DeepSeek 开放平台充值余额查询插件（DSH 桌面端设置页）",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./client/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
